@@ -81,7 +81,7 @@ def pop_top10():
 result_pop=pop_top10()
 print('The Top10 popular songs from 2010 to 2019:')
 print(result_pop)
-output_file = '/Users/lzp/Desktop/Workspace/HomeworkRepository/top_10_output.txt'
+output_file = 'top_10_output.txt'
 with open(output_file, 'w') as txt_file:
      #make a txt file for the top10 song, make it easier to analyze
     txt_file.write(result_pop.to_string(index=False))
